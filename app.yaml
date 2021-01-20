@@ -1,0 +1,8 @@
+service: demo-service
+runtime: nodejs12
+
+instance_class: F1
+entrypoint: npm run start:prod
+
+env_variables:
+  ENV_VAR_1: "example-1"
